@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memento</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="container">
+       <!-- Header with logo and slogan-->
+        <header>
+            <div>
+                <img src="Assets/icon logo.png" class="icon-logo">
+            </div>
+
+            <div>
+                <img class="logo" src="Assets/memento logo.png">
+            </div>
+            
+            <p class="slogan">Did you forget something?</p>
+            <div id="theme-toggle">
+                <input type="checkbox" id="dark-mode-toggle" />
+                <label for="dark-mode-toggle" class="toggle-label">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <span class="toggle-ball"></span>
+                </label>
+            </div>
+        </header>
+        
+        <main>
+            <!-- Form to add a new item -->
+            <section id="add-item">
+                <input type="text" id="new-item" placeholder="Write down your task..." />
+                <button id="add"><img src="svgs/submit-success-check-mark-svgrepo-com.svg" class="saved">Save it</button>
+            </section>
+        
+            <!-- List of items -->
+            <section id="tasks">
+                <ul>
+                    <li>
+                        <span>Put laundry</span>
+                        <button class="checkbox"><img src="svgs/done-all-svgrepo-com.svg" class="checked"></button>
+                        <button class="delete"><img src="svgs/delete-1-svgrepo-com.svg" class="deleted"></button>
+                    </li>
+                    <!-- Add more list items here -->
+                </ul>
+            </section>
+        
+            <!-- Categories -->
+            <section id="categories">
+                <ul>
+                    <li><span>Work</span></li>
+                    <li><span>Home</span></li>
+                    <li><span>Personal</span></li>
+                    <li><span>Hobbies</span></li>
+                </ul>
+            </section>
+        </main>
+
+    </div>
+
+
+    <script src="app.js"></script> 
+</body>
+</html>
