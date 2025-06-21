@@ -20,9 +20,11 @@ Ideal for personal development, habit tracking, and goal setting.
 
 🔧 # How to Use Locally
 
-git clone https://github.com/RoxyPOC/Memento.git
-cd Memento
-open index.html   # or use Live Server in VS Code
+- git clone https://github.com/RoxyPOC/Memento.git
+
+- cd Memento
+
+- open index.html   # or use Live Server in VS Code
 
 🛠️ # Future Ideas (Maybe 👀)
 
